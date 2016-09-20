@@ -111,7 +111,7 @@ TARGET_RELEASETOOLS_EXTENSIONS := device/lge/g2-common/releasetools
 TARGET_RIL_VARIANT := caf
 
 # SELinux policies
-include device/qcom/sepolicy/sepolicy.mk
+# include device/qcom/sepolicy/sepolicy.mk
 
 BOARD_SEPOLICY_DIRS += \
     device/lge/g2-common/sepolicy
